@@ -116,7 +116,7 @@ public class EX01Frame extends JFrame {
 		    this.setSize(640, 480);
 		    this.setLocationRelativeTo(null);
 		    this.setResizable(false);    
-		    this.setTitle("Trabalhando com numeros");
+		    this.setTitle("Tabuada Automatica EX01");
 		    
 		  }
 	 private static void adicionarTitulo(String titulo, JPanel painel) {
