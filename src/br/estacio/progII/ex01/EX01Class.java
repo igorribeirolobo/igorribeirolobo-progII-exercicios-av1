@@ -1,14 +1,17 @@
 package br.estacio.progII.ex01;
 
+import java.util.List;
+import java.util.ArrayList;
+
 public class EX01Class {
 
-	public String Calcular(int tab,int de,int ate)
+	public List Calcular(int tab,int de,int ate)
 	{  double calc = 0;
-		String retorno = "";
+		List<String> retorno = new ArrayList<String>();
 	    while(de <= ate)
 		{
 			calc = tab * de;
-			retorno += tab + " * "+ de +" = "+ calc+ " | ";
+			retorno.add(String.valueOf(tab)+" * "+String.valueOf(de)+" = "+String.valueOf(calc));
 			de++;
 			
 		}
