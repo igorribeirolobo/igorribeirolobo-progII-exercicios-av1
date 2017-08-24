@@ -1,8 +1,5 @@
 package br.estacio.progII.ex01;
 import javax.swing.*;
-
-import br.estacio.progII.ex03.Ex03Class;
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.FlowLayout;
@@ -85,7 +82,7 @@ public class EX01Frame extends JFrame {
 	 private void instanciarComponentes() {
 		    
 		    pnlTopo  = new JPanel(new FlowLayout());
-		    pnlTopo.setBackground(Color.BLACK);
+		    pnlTopo.setBackground(Color.GRAY);
 
 		    pnlCentro = new JPanel(new GridLayout(20, 1));
 		    pnlCentro.setBackground(Color.LIGHT_GRAY);
