@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
-public class EX01Frame extends JFrame {
+public class Ex01Frame extends JFrame {
 
 
 	  private JPanel pnlTopo;
@@ -41,7 +41,7 @@ public class EX01Frame extends JFrame {
 		        int ate = Integer.parseInt(txtAte.getText());
 		        
 		        
-		        EX01Class classe = new EX01Class();
+		        Ex01Class classe = new Ex01Class();
 		        
 		        try {     
 

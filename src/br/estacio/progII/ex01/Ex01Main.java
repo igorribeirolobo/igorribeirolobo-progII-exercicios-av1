@@ -1,9 +1,9 @@
 package br.estacio.progII.ex01;
 
-public class EX01Main {
+public class Ex01Main {
 
 	public static void main(String[] args) {
-		EX01Frame tela = new EX01Frame();
+		Ex01Frame tela = new Ex01Frame();
 		tela.Janela();
 		tela.setVisible(true);
 	}

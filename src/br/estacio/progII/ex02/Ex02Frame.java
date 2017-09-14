@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.*;
 
-import br.estacio.progII.ex01.EX01Class;
+import br.estacio.progII.ex01.Ex01Class;
 
-public class EX02Frame extends JFrame {
+public class Ex02Frame extends JFrame {
 
 	  private JPanel pnlTopo;
 	  private JPanel pnlEsquerda;
@@ -91,7 +91,7 @@ public class EX02Frame extends JFrame {
 		        double salario = Double.parseDouble(txtSalarioB.getText());
 		        
 		        
-		        EX02Class classe = new EX02Class();
+		        Ex02Class classe = new Ex02Class();
 		        classe.SetSalario(salario);
 		        
 		        try {     

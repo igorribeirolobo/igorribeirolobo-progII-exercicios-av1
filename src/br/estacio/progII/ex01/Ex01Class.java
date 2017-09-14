@@ -3,7 +3,7 @@ package br.estacio.progII.ex01;
 import java.util.List;
 import java.util.ArrayList;
 
-public class EX01Class {
+public class Ex01Class {
 
 	public List Calcular(int tab,int de,int ate)
 	{  double calc = 0;

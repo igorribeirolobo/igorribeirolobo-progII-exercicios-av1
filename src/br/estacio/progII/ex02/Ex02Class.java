@@ -3,7 +3,7 @@ package br.estacio.progII.ex02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EX02Class {
+public class Ex02Class {
     protected double salario = 0;
 	public double SetSalario(double salario)
 	{
