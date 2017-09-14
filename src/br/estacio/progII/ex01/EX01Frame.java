@@ -15,7 +15,6 @@ public class EX01Frame extends JFrame {
 	  private JPanel pnlTopo;
 	  private JPanel pnlEsquerda;
 	  private JPanel pnlCentro;
-
 	  private JLabel lbDe;
 	  private JLabel lbAte;
 	  private JLabel lbTab;
@@ -83,6 +82,8 @@ public class EX01Frame extends JFrame {
 		    
 		    pnlTopo  = new JPanel(new FlowLayout());
 		    pnlTopo.setBackground(Color.GRAY);
+		    
+		   
 
 		    pnlCentro = new JPanel(new GridLayout(20, 1));
 		    pnlCentro.setBackground(Color.LIGHT_GRAY);
@@ -91,7 +92,6 @@ public class EX01Frame extends JFrame {
 		    lbDe = new JLabel("De: ");
 		    lbDe.setFont(new Font("Consolas", Font.BOLD, 14));
 		    lbDe.setForeground(Color.WHITE);
-		    
 		    lbTab = new JLabel("Tabuada: ");
 		    lbTab.setFont(new Font("Consolas", Font.BOLD, 14));
 		    lbTab.setForeground(Color.WHITE);
